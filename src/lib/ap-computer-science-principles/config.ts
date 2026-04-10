@@ -1,0 +1,45 @@
+// AP Computer Science Principles Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM179",
+  slug: "ap-computer-science-principles",
+  name: "AP Computer Science Principles",
+  fullName: "AP CSP",
+  alias: "AP CSP",
+  family: "AP",
+  category: "School exams",
+  subcategory: "AP subject exam",
+  country: "United States",
+  region: "North America",
+  languages: ["English"],
+  estimatedAnnualTakers: "very high growth",
+  testingWindow: "May",
+  schedulePattern: "Annual",
+  ageGroup: "15-19",
+  targetUser: "AP student",
+  delivery: "Digital + portfolio",
+  questionTypes: ["MCQ + project"],
+  adaptivity: "Mixed",
+  sections: "Exam + performance task",
+  scoringMode: "1-5",
+  essayOrSpeaking: "Project",
+  ipRisk: "High",
+  contentReuse: "computer_science",
+  uiEngine: "objective_plus_project",
+  monetizationPotential: "High",
+  tier: "Tier 4",
+  launchWave: "Wave 6",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

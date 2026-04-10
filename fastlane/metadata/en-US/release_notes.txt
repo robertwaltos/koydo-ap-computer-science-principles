@@ -1,0 +1,5 @@
+Initial release of Koydo AP Computer Science Principles Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration
